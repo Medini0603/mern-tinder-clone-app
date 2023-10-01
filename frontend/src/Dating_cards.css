@@ -1,0 +1,29 @@
+.Dating_cards_container{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.cards{
+position: relative;
+background-color: white;
+width: 500px;
+padding: 20px;
+max-width: 75vw;
+height: 500px;
+box-shadow: 0px 18px 53px 0px rgba(0,0,0,0.3);
+border-radius: 20px;
+background-size: cover;
+background-position: center;
+}
+
+.swipe{
+    position: absolute;
+}
+
+
+.cards h3{
+position: absolute;
+bottom: 0;
+margin: 10px;
+color: black;
+}

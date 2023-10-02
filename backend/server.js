@@ -5,7 +5,7 @@
 
 // // // const app=express()
 // // // const port=process.env.PORT || 8001
-// // // const connection_url="mongodb+srv://medu0603:uIKCGrm04RdwOnS0@cluster0.ivq9f1r.mongodb.net/dbcards?retryWrites=true&w=majority"
+// // // const connection_url="mongodb+srv://medu0603:pw@cluster0.ivq9f1r.mongodb.net/dbcards?retryWrites=true&w=majority"
 // // // app.use(express.json())
 // // // app.use(Cors())
 // // // mongoose.connect(connection_url,{
@@ -46,7 +46,7 @@
 // // const app = express();
 // // const port = process.env.PORT || 8001;
 
-// // const uri = "mongodb+srv://medu0603:uIKCGrm04RdwOnS0@cluster0.ivq9f1r.mongodb.net/?retryWrites=true&w=majority";
+// // const uri = "mongodb+srv://medu0603:pw@cluster0.ivq9f1r.mongodb.net/?retryWrites=true&w=majority";
 
 // // const client = new MongoClient(uri, {
 // //   serverApi: {
@@ -110,7 +110,7 @@
 // const app = express();
 // const port = process.env.PORT || 8001;
 
-// const uri = "mongodb+srv://medu0603:uIKCGrm04RdwOnS0@cluster0.ivq9f1r.mongodb.net/?retryWrites=true&w=majority";
+// const uri = "mongodb+srv://medu0603:pw@cluster0.ivq9f1r.mongodb.net/?retryWrites=true&w=majority";
 // const databaseName = "mydatabase"; // Replace 'mydatabase' with your actual database name
 
 // const client = new MongoClient(uri, {
@@ -173,7 +173,7 @@ import Cors from 'cors';
 const app = express();
 const port = process.env.PORT || 8001;
 
-const uri = "mongodb+srv://medu0603:uIKCGrm04RdwOnS0@cluster0.ivq9f1r.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://medu0603:pw@cluster0.ivq9f1r.mongodb.net/?retryWrites=true&w=majority";
 const databaseName = "mydatabase"; // Replace 'mydatabase' with your actual database name
 
 const client = new MongoClient(uri, {
